@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_desenvolvido_por_vinicius_portela">Desenvolvido por Vinicius Portela</string>
+    <string name="button_come_ar_jogo">Começar Jogo</string>
+    <string name="label_digite_o_nome_do_time_da_casa">Digite o nome do time da casa</string>
+    <string name="label_digite_o_nome_do_time_visitante">Digite o nome do time visitante</string>
+    <string name="label_gol">GOL</string>
+    <string name="label_time_casa">Time da Casa</string>
+    <string name="label_time_visitante">Time Visitante</string>
+    <string name="label_titulo">Times</string>
+</resources>
