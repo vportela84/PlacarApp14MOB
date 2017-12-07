@@ -7,4 +7,6 @@
     <string name="label_digite_o_nome_do_time_da_casa">Digite o nome do time da casa</string>
     <string name="label_digite_o_nome_do_time_visitante">Digite o nome do time visitante</string>
     <string name="button_come_ar_jogo">Começar Jogo</string>
+    <string name="placar_inicial">0</string>
+    <string name="label_gol">GOL</string>
 </resources>

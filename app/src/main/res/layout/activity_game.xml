@@ -4,11 +4,11 @@
     android:id="@+id/activity_game"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
     tools:context="br.com.fiap.placarapp.GameActivity">
 
     <LinearLayout
@@ -17,20 +17,46 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/tvTimeCasa"
-            android:layout_weight="0.5"
-            android:gravity="center"
-            tools:text="TIMECASA"/>
+            style="@style/titulo_placar"
+            tools:text="TIMECASA" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/tvTimeVisitante"
-            android:layout_weight="0.5"
-            android:gravity="center"
-            tools:text="TIMEVISITANTE"/>
+            style="@style/titulo_placar"
+            tools:text="TIMEVISITANTE" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvPlacarCasa"
+            style="@style/placar" />
+
+        <TextView
+            android:id="@+id/tvPlacarVisitante"
+            style="@style/placar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btPlacarCasa"
+            style="@style/botao_gol"
+            android:onClick="golCasa"/>
+
+        <Button
+            android:id="@+id/btPlacarVisitante"
+            style="@style/botao_gol"
+            android:onClick="golVisitante"/>
 
     </LinearLayout>
 </LinearLayout>
